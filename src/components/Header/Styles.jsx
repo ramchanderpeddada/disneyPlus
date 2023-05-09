@@ -106,7 +106,3 @@ export const Login = styled(Button)({
     borderColor: "transparent",
   },
 });
-
-export const UserImg = styled("img")({
-  height: "100%",
-});
