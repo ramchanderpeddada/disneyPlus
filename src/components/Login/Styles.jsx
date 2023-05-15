@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { Typography, styled } from "@mui/material";
+import { Button, Typography, styled } from "@mui/material";
 
 export const StyledContainer = styled("div")({
   overflow: "hidden",
@@ -51,7 +51,7 @@ export const CTALogoOne = styled("img")({
   width: "100%",
 });
 
-export const SignUp = styled(Typography)({
+export const SignUp = styled(Button)({
   fontWeight: "bold",
   color: "#f9f9f9",
   backgroundColor: "#0063e5",
